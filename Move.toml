@@ -1,0 +1,13 @@
+[package]
+name = "hero gas project"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+move_gas_optimization = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]
